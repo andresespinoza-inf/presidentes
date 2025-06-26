@@ -1,0 +1,87 @@
+.titulo-principal {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700; 
+    font-style: normal;
+}
+.titulo {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600; 
+    font-style: normal;
+    color: #6e4737;
+    text-align: center;
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    background-color: #e2d6bd;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+header > p {
+    font-size: 15px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+div {
+    font-size: 22px;
+    padding: 22px;
+}
+div > p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+header > h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #6e4737;
+}
+
+h3 {
+    color: #6e4737;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 0 50px;
+    margin: 20px;
+}
+
+.img-container {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 4px;
+    overflow: hidden;
+    aspect-ratio: 2/3; 
+}
+
+.img-container:hover {
+    transform: scale(1.05) translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 4px;
+}
+footer{
+    background-color:#6e4737;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+    border: 1px;
+    font-size: 15px;
+}
